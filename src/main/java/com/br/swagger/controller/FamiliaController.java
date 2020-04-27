@@ -14,7 +14,7 @@ import com.br.swagger.service.FamiliaService;
 
 @RestController
 @RequestMapping(value = "/familias", produces = MediaType.APPLICATION_JSON_VALUE)
-public class FamiliaController {
+public class FamiliaController implements FamiliaSwagger {
 
 	@Autowired
 	public FamiliaService familiaService;
